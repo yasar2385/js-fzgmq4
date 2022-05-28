@@ -1,0 +1,65 @@
+<div id="app"></div>
+
+<div class="container" style="/* width: 175px; */">
+  <div class="row">
+    <div class="col-1">
+      <span
+        class="zip"
+        onclick="NewQueryModule.download_attach(this)"
+        id="attach_download"
+        title="Download"
+        ><img class="note_img list-item" src="UI/svg/qpDownload.svg" title=""
+      /></span>
+    </div>
+    <div class="col-9">Alltachments <span class="attach_count">(02)</span></div>
+    <div class="col-1">
+      <span onclick="NewQueryModule.ShowMoreLess(this)" class="showHide"
+        ><img
+          class="note_img list-item"
+          src="UI/svg/qpExpandClose.svg"
+          title="Close"
+          alt=""
+      /></span>
+    </div>
+    <div class="col-1 ds-none">
+      <span
+        id="attach_delete"
+        class=""
+        data-delete="All"
+        onclick="NewQueryModule.delete_attach(this)"
+        title="Delete"
+        ><img class="note_img list-item" src="UI/svg/qpTrash.svg" title=""
+      /></span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-1">
+      <span
+        class="zip"
+        onclick="NewQueryModule.download_attach(this)"
+        id="attach_download"
+        title="Download"
+        ><img class="note_img list-item" src="UI/svg/qpDownload.svg" title=""
+      /></span>
+    </div>
+    <div class="col-9 text-left">
+      <div
+        class="showFileNamedown text-left"
+        title="JBREIM_wbac035_QA_updated_parsingerror.xml"
+        onclick="NewQueryModule.download_attach(this)"
+      >
+        JBREIM_wbac035...xml
+      </div>
+    </div>
+    <div class="col-1 ml-auto">
+      <span
+        id="attach_delete"
+        class=""
+        data-delete="All"
+        onclick="NewQueryModule.delete_attach(this)"
+        title="Delete"
+        ><img class="note_img list-item" src="UI/svg/qpTrash.svg" title=""
+      /></span>
+    </div>
+  </div>
+</div>
